@@ -1,0 +1,133 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section h1 {
+  font-size: 8rem;
+}
+.scroll-wrap {
+  position: relative;
+}
+
+.scroll-trigger {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-track {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.scroll-sticky {
+  width: 100%;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.scroll-item {
+  width: 100%;
+  height: 100%;
+  max-width: 80rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.scroll-img {
+  width: 40%;
+  aspect-ratio: 1 / 1;
+  flex: none;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.scroll-background {
+  height: 100%;
+  opacity: 0.6;
+}
+.scroll-title {
+  max-width: 53%;
+  letter-spacing: -0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+/* @media screen and (max-width: 991px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .scroll-item {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .scroll-img {
+    width: 100%;
+    max-width: 19rem;
+  }
+
+  .scroll-title {
+    width: 100%;
+    max-width: 19ch;
+    min-height: 3.4em;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vw;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .scroll-item {
+    padding: 6vw;
+  }
+
+  .scroll-title {
+    font-size: 8vw;
+  }
+} */
